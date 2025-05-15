@@ -1,0 +1,65 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-containerEnter {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-containerEnter h2 {
+  margin-bottom: 1.2rem;
+}
+
+.modal-containerEnter input {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.modal-containerEnter input {
+  width: 92%;
+}
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn,
+.create-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #000;
+}
+
+.create-btn {
+  background: #3498db;
+  color: white;
+}
+.create-btn:hover {
+  background-color: #2980b9;
+}
+.cancel-btn:hover {
+  background-color: #aaa;
+}

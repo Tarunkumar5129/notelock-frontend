@@ -1,0 +1,74 @@
+/* src/components/editor/HomeToolbar.css */
+.home-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.home-toolbar select {
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.home-toolbar button {
+  height: 50%;
+  color: black;
+  padding: 6px 10px;
+  font-size: 1rem;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.home-toolbar button:hover {
+  background-color: #eee;
+}
+.color-picker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.color-picker input[type="color"] {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+}
+.align-dropdown {
+  position: relative;
+}
+
+.align-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.align-options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.align-options button:hover {
+  background-color: #f0f0f0;
+}

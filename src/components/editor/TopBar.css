@@ -1,0 +1,87 @@
+/* src/components/editor/TopBar.css */
+.top-bar-wrapper {
+  display: flex;
+  height: 25%;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.notebook-title {
+  font-size: 125%;
+}
+.brand-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 125%;
+  color: #3498db;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.5px;
+}
+.topBar-tabs {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #b0afaf;
+  padding-bottom: 0.4rem;
+}
+
+.tab-btn {
+  height: 75%;
+  background: none;
+  border: none;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  margin-top: 1%;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.tab-btn.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.toolbar-section {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+.notebook-header-bar {
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.exit-btn {
+  height: 75%;
+  width: 10%;
+  background: #ff4d4f;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.exit-btn:hover {
+  background: #d9363e;
+}

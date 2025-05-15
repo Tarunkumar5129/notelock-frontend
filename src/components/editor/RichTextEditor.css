@@ -1,0 +1,57 @@
+/* src/components/editor/RichTextEditor.css */
+.rich-editor-wrapper {
+  border-radius: 8px;
+  background: white;
+  padding: 1rem;
+  white-space: pre-wrap;
+  min-height: 300px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+table td,
+table th {
+  min-width: 100px;
+  vertical-align: top;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+table tr:hover {
+  background-color: #f0f8ff;
+}
+
+td:focus {
+  outline: 2px solid #3b82f6;
+}
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.my-table td,
+.my-table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-width: 100px;
+  vertical-align: top;
+}
+
+.my-table td:focus,
+.my-table th:focus {
+  outline: 2px solid #007bff;
+}
